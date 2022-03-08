@@ -23,6 +23,6 @@ This data was collected 2017 - 2019.
 2. The data was written to 4 separate csv files to ease in loading the tables.
 3. psycopg2 was used to create the database, tables, and then to load the tables.
 
-![image](http://localhost:8801/edit/Data_Model_Final_Project.svg)
+![image](https://github.com/tfgerling/Final_project/blob/main/Data_Model_Final_Project.svg)
 
 ## Models
