@@ -19,8 +19,8 @@ This data was collected 2017 - 2019.
 
 ## ETL
 
-1. Both LabelEncoder and pd.factorize were used to create unique id's (primary keys) for each of the 4 tables.
-2. The data was written to 4 separate csv files to ease in loading the tables.
+1. Both LabelEncoder and pd.factorize were used to create unique id's (primary keys) for each of the 5 tables.
+2. The data was written to 5 separate csv files to ease in loading the tables.
 3. psycopg2 was used to create the database, tables, and then to load the tables.
 
 ![image](https://github.com/tfgerling/Final_project/blob/main/Data_Model_Final_Project.svg)
