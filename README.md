@@ -32,7 +32,7 @@ This data was collected 2017 - 2019.
 3. The stress outcomes were underrepresented in the data, so we used Synthetic Minority Oversampling Technique (SMOTE) to resample the data for the Stress model only.
 4. Next, we used a combination of a Random Forest Classifier and a Support Vector Classifier to fit the model to the data.  The results of these two classifiers were then incorporated with a Voting Classifier to determine the greatest probability among the options (soft voting) and choose the optimal model to use.
 5. Random Forest Classifier was chosen because of its effectiveness we have seen in past modeling endeavors, and a Support Vector Classifier was chosen after the visualizations prompted a discussion about finding hyperplanes among the multivariate dataset.
-6.  The Voting Classifier is a new technique we came across in our preparation.  It seemed to be a perfect fit to solidify the ensemble of techniques we had chosen.
+6.  The Voting Classifier is a new technique we came across in our preparation.  It seemed to be a perfect fit to solidify the ensemble of techniques we had chosen.%
 
 ### Cross-Validation
 1. After fitting the initial model with default parameters, we used GridSearchCV to assess the performance of each model individually while tuning parameters and performing cross-validation.  
@@ -44,7 +44,8 @@ This data was collected 2017 - 2019.
 
 ### Prediction
 1. The predictive ability of the initial model was at 81%, with precision and recall scores both falling between 81% and 82%.
-2. After tuning parameters, the predictive ability of the model increased to 
+2. After tuning parameters for the Random Forest Classifier, the predictive ability of the model increased to 83%, with precision between 82% and 83% and recall between 81% and 84%.
+3. After tuning parameters for the Support Vector Classifier, the predictive ability of the model 
 
 
 
