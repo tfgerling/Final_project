@@ -39,13 +39,15 @@ This data was collected 2017 - 2019.
 2. GridSearch helped us in two ways:  a) to determine the best parameters to use for the final model to fit to the test data, and b) to use cross-validation to help us avoid overfitting the model.
 
 ### Parameter Tuning
-1.  The best combination of parameters we found for the Random Forest Classifier was to keep the default setting for max_depth but change n_estimators to 500 trees.
-2.  The best combination of parameters for the Support Vector Classifier was to use     .
+1.  The best combination of parameters we found for the Random Forest Classifier alone was to keep the default setting for max_depth but change n_estimators to 500 trees.
+2.  The best combination of parameters for the K Neighbors Classifier alone was to use just one neighbor and a leaf_size of 10. 
 
 ### Prediction
 1. The predictive ability of the initial model was at 81%, with precision and recall scores both falling between 81% and 82%.
 2. After tuning parameters for the Random Forest Classifier, the predictive ability of the model increased to 83%, with precision between 82% and 83% and recall between 81% and 84%.
-3. After tuning parameters for the Support Vector Classifier, the predictive ability of the model 
+3. After tuning parameters for the K Neighbors Classifier, the predictive ability of the model droped to 79%, with precision between 74% and 87% and recall between 70% and 89%.
+4. After running the ensemble again with Random Forest Classifier, K Neighbors Classifier, and Voting Classifier (this time with the parameters tuned), the accuracy was 81%, with precision between 78% and 84% and recall between 78% and 84%.
+5.  Overall, the best model as the Random Forest Classifier used alone with 500 trees.  Accuracy was 82%, precision was between 81% and 84%, and recall was between 80% and 85%.
 
 
 
